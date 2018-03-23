@@ -6,9 +6,13 @@
 #
 
 day = input ("What is day today?")
+
+
 if day == "saturday" or day == "sunday":
 	print("Please, capital the first letter.")
 elif day == "Saturday" or day == "Sunday":
 	print("It is weekend.") 
 else:
-  print("It is not weekend, it is weekday !")
+  	print("It is not weekend, it is weekday !")
+
+input()
